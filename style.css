@@ -1,0 +1,365 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+@import url("https://fonts.googleapis.com");
+@import url("https://fonts.gstatic.com");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Roboto+Mono&display=swap");
+@import url("base.css");
+
+
+        html{
+            scroll-behavior: smooth;
+        }
+
+        .main_header{
+            background-color: black;
+            padding: 20px 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+        }
+
+        .main_header_logo{
+            color:black;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 25px;
+            border: 2px solid black;
+            background-color: #f3ce13;
+            padding: 4px 16px;
+            border-radius: 7px;
+        }
+
+        .main_nav{
+            display: inline-block;
+            text-align: right;
+            width: calc(100% - 145px);
+        }
+
+        .main_nav_items{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .main_nav_item{
+            display: inline-block;
+            margin: 0 10px  ;
+        }
+
+        .main_nav_item a{
+            text-decoration: none;
+            color: #f3ce13;
+            font-size: 23px;
+            font-weight: bold;
+        }
+
+        .main_nav_item a:hover{
+            color: white;
+        }
+
+        .main_nav_item a:active{
+            color: grey;
+        }
+
+        .main_nav_item_login a{
+            color: black;
+            background-color:#f3ce13 ;
+            padding: 4px 16px;
+            border: 2px solid ;
+            border-radius: 8px;
+            font-weight: bold;
+            transition-duration: .5s;
+        }
+
+        .main_nav_item_login a:hover{
+            color:#f3ce13 ;
+            border: 2px solid #f3ce13;
+            background-color: black;
+        }
+
+        .main_nav_item_login a:active{
+            color:#f3ce13 ;
+            border: 2px solid #f3ce13;
+            background-color: grey;
+        }
+
+        .showcase{
+            background: url("interstellar5.jpg");
+            height: 1000px;
+            width: 100%;
+            background-position: center;
+            padding: 10px;
+            background-size: cover;
+            font-size: 20px;
+            color: black;
+            background-attachment: fixed;
+
+        }
+
+        .showcase h2{
+            position: absolute;
+            top: 15%;
+            margin: 0;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: black;
+            padding-top: 20px;
+        }
+
+        .showcase h3{
+            color:#171717;
+        }
+
+        .showcase .content{
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-size: 20px;
+            background-color:  rgba(243, 206, 19, 0.3);
+            padding:20px;
+            width: 50%;
+            border-radius: 10px;
+            text-align: center;
+            
+            
+        }
+
+        #how_it_works{
+            text-align: center;
+            padding: 10px;
+            background-color: #f3ce13;
+        }
+
+        #how_it_works h2{
+            font-size: 35px;
+        }
+
+        #how_it_works h3{
+            color: black;
+            font-size: 30px;
+        }
+
+
+        
+
+        #features a{
+            background-color: #f3ce13;
+            color: black;
+            text-decoration: none;
+            padding: 4px 16px;
+            font-size: 18px;
+            border: 1px solid;
+            border-radius: 3px;
+            display: inline-block;
+            transition-duration: .4s;
+        }
+
+        #features a:hover{
+            background-color: black;
+            color: #f3ce13;
+        }
+
+        #features a:active{
+            background-color: grey;
+            color: #f3ce13;
+        }
+        
+        /* .row{
+            background-color: #f3ce13;
+        } */
+
+        .row::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        .section_title{
+            text-align: center;
+            font-size: 30px;
+            font-weight: bolder;
+            margin-bottom: 110px;
+        }
+
+        #plans h3{
+            font-size: 15px;
+        }
+
+        #plans h2{
+            font-size: 30px;
+        }
+
+        .plan{
+            text-align: center;
+            padding: 5px;
+        }
+
+        .plan_featured{
+            position: relative;
+            top: -80px;
+        }
+
+        .plan_badge{
+            background-color:#f3ce13;
+            color:black !important;
+            font-weight: bolder;
+            padding: 8px;
+            border-radius: 5px;
+        }
+
+        .plan h2,h3{
+            color: #f3ce13;
+        }
+
+        .recommended_plan{
+            color: #fff;
+            background: black!important;
+        }
+
+        .inner_plan {
+            background: #171717;
+            padding: 25px 10px;
+            border-radius: 5px;
+            color: white;
+            box-shadow: 5px 10px 30px black;
+            transition: box-shadow .2s;
+            position: relative;
+            transition: all .5s;
+            top: 0;
+        }
+
+        .inner_plan:hover{
+            top: -10px;
+        }
+
+        .plan_features {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .plan_features li {
+            margin: 6px 0;
+        }
+
+        
+
+        button{
+            background-color: #f3ce13;
+            color: black;
+            padding: 3px 7px;
+            border-radius: 5px;
+            font-weight: bold;
+            border: 2px solid #f3ce13 ;
+            transition-duration: .2s;
+        }
+
+        button:hover{
+            background-color: black;
+            color: #f3ce13;
+        }
+
+        button:active{
+            background-color: grey;
+        }
+
+        #backtotop{
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            color:darkgrey;
+            font-size: 40px;
+        }
+
+        #backtotop:hover{
+            color:grey;
+            transition: .6s;
+        }
+
+        .counter{
+            background: linear-gradient(to bottom, #2E2E2E 0%, black 100%);
+            text-align: center;
+            padding: 20px;
+            color: #f3ce13;
+        }
+
+        .counter_item{
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .counter h4{
+            margin: 0;
+        }
+
+        .card{
+            background-color:#171717;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 10px 10px 10px rgba(105,105,105,0.3);
+            position: relative;   
+            transition: all .5s;
+            top: 0;
+        }
+
+        .card:hover{
+            top: -10px;
+        }
+
+        .card .card_body{
+            padding: 10px;
+        }
+
+        .card_body{
+            padding: 30px;
+        }
+
+        
+
+        .col3_card{
+            padding: 10px;
+        }
+
+        .card h1,h2{
+            color: #f3ce13;
+        }
+
+        .card p{
+            color: white;
+        }
+
+        footer{
+            background-color: black;
+            padding: 30px;
+            margin-top: 30px; 
+            position: relative;
+            bottom: -20px;  
+            
+        }
+
+        footer a{
+            color: #f3ce13;
+            font-size: 18px;
+            text-decoration: none;     
+        }
+
+        footer ul{
+            margin: 0;
+            padding: 0;
+        }
+
+        footer ul li{
+            list-style: none;
+            display: inline-block;
+            margin-left: 5px;  
+        }
+
+        #social_links{
+            text-align: right;
+        }
+
+        .fab{
+            padding: 10px;
+            font-size: 25px;
+        }

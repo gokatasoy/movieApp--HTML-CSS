@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    background-color: #f3ce13;
+}
+
+.row{
+    margin-bottom: 40px;
+}
+
+.col3{
+    float: left;
+    width: 33.3%;
+}
+
+.col2{
+    float: left;
+    width: 50%;
+    height: 350px;
+
+}
+
+.col2_left{
+    background: url("interstellar31.jpg");
+    background-size: cover;
+    background-position: bottom center;
+    height: 350px;
+}
+
+.col2_right{
+    background-color:black;
+    padding: 40px;
+    vertical-align: top;
+    color: #f3ce13;
+    height: 350px;
+}
+
+.col2_right h3{
+    font-size: 30px;
+}
+
+        
+.container {
+    margin: 0 auto;
+    /* width: 1000px; */
+}
+
+.img_fluid{
+    width: 100%;
+}
+
+@media (min-width: 576px){
+    .container{
+        margin: 0 auto;
+        width: 540px;
+    }
+}
+
+@media (min-width: 768px){
+    .container{
+        margin: 0 auto;
+        width: 960px;
+    }
+}
+
+@media (min-width: 992px){
+    .container{
+        margin: 0 auto;
+        width: 720px;
+    }
+}
+
+@media (min-width: 1200px){
+    .container{
+        margin: 0 auto;
+        width: 1140px;
+    }
+}
+
+@media (min-width: 1400px){
+    .container{
+        margin: 0 auto;
+        width: 1320px;
+    }
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Roboto+Mono&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="register.css">
+</head>
+<body id="body">
+    <header class="main_header">
+        
+        <div class="container">
+            <a href="#" class="main_header_logo">IMDb</a>
+            <nav class="main_nav">
+                <ul class="main_nav_items">
+                    <li class="main_nav_item">
+                        <a href="#">Movies</a>
+                    </li>
+                    <li class="main_nav_item">
+                        <a href="#">Series</a>
+                    </li>
+                    <li class="main_nav_item main_nav_item_login">
+                        <a href="#">Login</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+
+    <main class="signup_page">
+        <h1 class="signup_title">Create Your Account</h1>
+        
+        <form action="" class="signup_form">
+            <label for="firstname">Firs Name</label>
+            <input type="text" id="firstname">
+
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname">
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email">
+
+            <label for="password">Password</label>
+            <input type="password" id="password">
+
+            <label for="gender">Gender</label>
+            <select id="gender">
+                <option value="">Select</option>
+                <option value="">Male</option>
+                <option value="">Female</option>
+            </select>
+
+            <input type="checkbox" id="agree_terms">
+            <label for="agree_terms">Agree to
+                <a href="#">Terms &amp; Conditions</a>
+            </label>
+
+            <button type="submit">Signup</button>
+                
+        </form>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col2">
+                    <ul id="footer_links">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Forum</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col2">
+                    <ul id="social_links">
+                        <li><a href="#" class="fab fa-facebook"></a></li>
+                        <li><a href="#" class="fab fa-twitter"></a></li>
+                        <li><a href="#" class="fab fa-instagram"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#body" id="backtotop">
+        <i class="fas fa-arrow-alt-circle-up"></i>
+    </a>
+</body>
+</html>

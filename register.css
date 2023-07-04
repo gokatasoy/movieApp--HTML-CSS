@@ -1,0 +1,44 @@
+.signup_page{
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.signup_title{
+    text-align: center;
+    color: black;
+    padding: 4px;
+    font-size: 35px;
+}
+
+.signup_form{
+    width: 500px;
+    margin: auto;
+}
+
+.signup_form label,
+.signup_form input:not([type="checkbox"]),
+/* type'ı checkbox olmayan inputlara işlem yapar */
+.signup_form select{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.signup_form input [type="checkbox"],
+.signup_form input [type="checkbox"] + label{
+    display: inline-block;
+    width: auto;
+}
+/* type'ı checkbox olan elamanı seç 
+type'ı checkbox olan elamanı seç + daha sonra gelen label elemanlarını seç */
+
+.signup_form input,
+.signup_form select{
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 10px 15px;
+
+    outline: none;
+    background-color: white;
+}
+
